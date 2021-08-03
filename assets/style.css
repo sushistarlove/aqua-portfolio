@@ -99,6 +99,13 @@
     margin-left: 10px;
     margin-top: 10px;
   }
+
+  #pic2 {
+    width: 60%;
+    height: 350px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
   
   #container1 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -201,4 +208,29 @@
   
     a:hover {
         text-shadow: 1px 1px yellow;
+    }
+
+    @media only screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
+      }
+      img {
+        width: 100%;
+      }
+      h3 {
+        border: 3px solid white;
+      }
+      h4 {
+        border: 3px solid white;
+      }
+      h5 {
+        border: 3px solid white;
+      }
+      #description {
+        border: 3px solid white;
+      }
+    }
+
+    #wow {
+      font-size: 20px;
     }
