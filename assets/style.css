@@ -59,8 +59,12 @@
   .fas {
     display: none;
   }
+
+  .mobile-show {
+    display: none;
+ }
   
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 730px) {
     .nav-item {
       display: none;
     }
@@ -68,6 +72,20 @@
     .fas {
       display: block !important;
     }
+
+    img {
+      display: none;
+    }
+
+  }
+
+  @media screen and (min-width: 600px) {
+
+    /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+   .mobile-show {
+      display: flex !important;
+   }
+  
   }
   
   .dropdown {
@@ -95,7 +113,7 @@
   
   img {
     width: 200px;
-    height: 365px;
+    height: 300px;
     margin-left: 10px;
     margin-top: 10px;
   }
